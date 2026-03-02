@@ -7,11 +7,29 @@ All3 is transforming how buildings are conceived, developed, and delivered. We c
 ## 2. Role keywords
 focused on building a **deterministic, physics-accurate simulation platform** for **multi-robot construction assembly**. You will develop **high-performance Unreal-based systems that replicate real-world robotic behaviour and enable large-scale autonomy testing**.
 
-### 2.1 What other platforms exist to do the same thing (Robotis Simulation)?
-### 2.2 Why the decided to go with unreal engine?
-### 2.3 
 
+## Notes/Questions 
 
+### 2.1 What other platforms exist for robotics simulation?
+
+- Isaac Sim (NVIDIA)
+- Gazebo (Open Source)
+- Unreal Engine (Epic Games)
+
+### 2.2 Why did they choose Unreal Engine?
+
+Unreal Engine is widely used in media production (video games and film), where achieving high visual fidelity is essential. The question is whether Unreal’s rendering and simulation capabilities are sufficient to accurately reproduce real‑world physics and scientifically precise robotic systems.
+
+### 2.3 What could be the critical challenges of this system?
+
+- The built‑in physics engines (Chaos and PhysX) may lack the precision required for accurate mechanical simulation.
+    - **Chaos Physics:** A lightweight physics solver intended to replace PhysX once fully production‑ready.
+    - **PhysX:** Currently used by default for physical simulation and collision calculations in Unreal Engine.
+- Achieving high‑precision robotics simulation may require integrating a custom physics engine.
+    - **Bullet SDK:**  Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc. We are developing a new differentiable simulator for robotics learning, called Tiny Differentiable Simulator, or TDS. The simulator allows for hybrid simulation with neural networks. It allows different automatic differentiation backends, for forward and reverse mode gradients. 
+    - **ODE: Open Dynamics Engine:** ODE is an open source, high performance library for simulating rigid body dynamics. It is fully featured, stable, mature and platform independent with an easy to use C/C++ API. It has advanced joint types and integrated collision detection with friction. ODE is useful for simulating vehicles, objects in virtual reality environments and virtual creatures. It is currently used in many computer games, 3D authoring tools and simulation tools.
+
+- Efficient 3D asset management is critical. Unreal provides solid tooling for this, but the overall performance and workflow depend heavily on the structure and complexity of the simulation scenarios.
 
 ## Tasks 
 
@@ -21,5 +39,13 @@ Simulating coordinated robotic systems operating in shared physical space. Inclu
 Implementing physically grounded sensor models (LiDAR, cameras, IMUs) to support autonomy and perception development;
 Designing high-performance data bridges between Unreal Engine and external C++/Python robotics stacks to enable large-scale scenario testing and AI validation.
 
-Resources 
 
+## Resources 
+
+- https://www.youtube.com/watch?v=JmxuRn1Jk18&t=877s
+- https://developer.nvidia.com/isaac/sim
+- https://www.youtube.com/watch?v=PT07H4BXdfY
+- https://sourceforge.net/projects/bullet-physics-sdk.mirror/
+- https://cyberbotics.com/doc/reference/ode-open-dynamics-engine
+- https://www.ode.org/
+- https://www.faro.com/en/Resource-Library/Article/What-is-Lidar
