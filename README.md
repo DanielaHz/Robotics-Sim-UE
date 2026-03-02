@@ -1,9 +1,17 @@
-# ALL3 Challenge analysis
+# Research Notes: Robotics Simulation in Unreal Engine
 
-## Company Overview 
+## 1. Company Overview 
 
-All3 is transforming how buildings are conceived, developed, and delivered. We combine AI-powered design with robotic prefabrication and on-site assembly to build custom architecture at the cost and speed of mass production - unlocking even the most complex sites.
-We’re currently seeking a Software Engineer – Simulation / Unreal Focus to join our team, focused on building a deterministic, physics-accurate simulation platform for multi-robot construction assembly. You will develop high-performance Unreal-based systems that replicate real-world robotic behaviour and enable large-scale autonomy testing.
+All3 is transforming how buildings are conceived, developed, and delivered. We combine AI-powered design with robotic prefabrication and on-site assembly to build custom architecture at the cost and speed of mass production.
+
+## 2. Role keywords
+focused on building a **deterministic, physics-accurate simulation platform** for **multi-robot construction assembly**. You will develop **high-performance Unreal-based systems that replicate real-world robotic behaviour and enable large-scale autonomy testing**.
+
+### 2.1 What other platforms exist to do the same thing (Robotis Simulation)?
+### 2.2 Why the decided to go with unreal engine?
+### 2.3 
+
+
 
 ## Tasks 
 
