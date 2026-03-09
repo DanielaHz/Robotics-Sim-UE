@@ -60,8 +60,22 @@ Unreal Engine is widely used in media production (video games and film), where a
 
 ### 5.2 Understanding the Role & Scope
 
-- You mentioned open roles that match my profile — are you envisioning this as a research-heavy position, an engineering role, or a mix of both?
+- You mentioned open roles that match my profile — are you envisioning this as a research-heavy position, an engineering role, or a mix of both? Egnineering posirion to work in the real role
+
+
 - Would I be joining an existing simulation effort, or is this more of a greenfield build?
+
+UNreal side as well.
+
+Capabilits light art, simulating cameras perspective and orthographics perception, 
+simulating their, stereo cameras.
+
+
+-Extremely large cad models
+reinforcement learning and trainig so on 
+
+
+
 - How much ownership would someone in this role have over technical decisions?
 
 
@@ -80,13 +94,34 @@ Unreal Engine is widely used in media production (video games and film), where a
 - What are the biggest unsolved problems in your current simulation or testing workflow?
 - How many robots and how complex are the assembly scenarios you need to simulate at scale?
 
-### 5.5 TEHNICAL 
 
-- Why did you choose Unreal Engine over Isaac Sim or Gazebo, given that Isaac Sim is purpose-built for robotics and already integrates ROS2?
+### 5.6 Company Overview (Bullet Points)
+- Construction company delivering end‑to‑end projects
 
-- What's your approach to determinism — are simulations expected to be bit-exact reproducible, or is behavioural consistency sufficient?
+- Works on commercial and residential buildings
 
+- Mission: reduce emissions, shorten construction time, and lower costs
 
+- Distinctive approach:
+
+    - Build a central core
+
+    - Add cross‑sections/modules
+
+    - Assemble the rest of the building efficiently (prefabrication‑style)
+
+####  Team & Technology
+- ~35 employees
+
+- Dedicated simulation team
+
+- Produces photorealistic images and camera‑based simulations
+
+- Future goal: build a frontend to render full building models
+
+- Tech stack includes:
+
+- Embedded Linux, Ubuntu, Docker containers
 
 ## Resources 
 
