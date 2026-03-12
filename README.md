@@ -2,6 +2,8 @@
 
 ## 1. Company Overview 
 
+![image](/images/All3.jpg)
+
 All3 is transforming how buildings are conceived, developed, and delivered. We combine AI-powered design with robotic prefabrication and on-site assembly to build custom architecture at the cost and speed of mass production.
 
 ## 2. Role Analysis
@@ -41,7 +43,8 @@ Unreal Engine is widely used in media production (video games and film), where a
 
 ## 4. Relevant Concepts
 
-### 4.1 Deterministic Models:
+### 4.1 Deterministic Simulation:
+Deterministic simulations are computational models that produce identical outputs every time they are run, provided the input parameters and initial conditions remain the same
 
 ### 4.2 Multi-robot construction assembly:
 
@@ -65,16 +68,13 @@ Unreal Engine is widely used in media production (video games and film), where a
 
 - Would I be joining an existing simulation effort, or is this more of a greenfield build?
 
-UNreal side as well.
+#### Unreal side as well
 
-Capabilits light art, simulating cameras perspective and orthographics perception, 
+- Capabilits light art, simulating cameras perspective and orthographics perception, 
 simulating their, stereo cameras.
 
-
--Extremely large cad models
+- Extremely large cad models
 reinforcement learning and trainig so on 
-
-
 
 - How much ownership would someone in this role have over technical decisions?
 
@@ -123,6 +123,14 @@ reinforcement learning and trainig so on
 
 - Embedded Linux, Ubuntu, Docker containers
 
+- the team bigger simulation test
+
+- conquerence and atomic.
+
+- events
+
+- parallel simulate x robots, you dont think cuda lenguage, to paralelize objects 
+
 ## Resources 
 
 - https://www.youtube.com/watch?v=JmxuRn1Jk18&t=877s
@@ -132,3 +140,4 @@ reinforcement learning and trainig so on
 - https://cyberbotics.com/doc/reference/ode-open-dynamics-engine
 - https://www.ode.org/
 - https://www.faro.com/en/Resource-Library/Article/What-is-Lidar
+- https://www.linkedin.com/pulse/world-building-autonomous-systems-nvidia-omniverse-unreal-engine-uu7vc/?trackingId=DkyRltQJQ4C3e081ltTD8Q%3D%3D
