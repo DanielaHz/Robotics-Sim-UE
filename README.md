@@ -16,9 +16,14 @@ focused on building a **deterministic, physics-accurate simulation platform** fo
 - Gazebo (Open Source)
 - Unreal Engine (Epic Games)
 
-### 2.2 Why did they choose Unreal Engine?
 
-Unreal Engine is widely used in media production (video games and film), where achieving high visual fidelity is essential. The question is whether Unreal’s rendering and simulation capabilities are sufficient to accurately reproduce real‑world physics and scientifically precise robotic systems.
+## Interesting companies and projects
+- https://github.com/iamaisim/ProjectAirSim
+- https://github.com/google-deepmind/mujoco
+- https://www.generalrobotics.company/post/airgen
+- https://cesium.com/
+- https://www.blackshark.ai/
+- https://github.com/OpenSim2Real
 
 ### 2.3 What could be the critical challenges of this system?
 
@@ -140,4 +145,6 @@ reinforcement learning and trainig so on
 - https://cyberbotics.com/doc/reference/ode-open-dynamics-engine
 - https://www.ode.org/
 - https://www.faro.com/en/Resource-Library/Article/What-is-Lidar
-- https://www.linkedin.com/pulse/world-building-autonomous-systems-nvidia-omniverse-unreal-engine-uu7vc/?trackingId=DkyRltQJQ4C3e081ltTD8Q%3D%3D
+- https://www.linkedin.com/pulse/world-building-autonomous-systems-nvidia-omniverse-unreal-engine-uu7vc/?
+
+
