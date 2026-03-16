@@ -17,7 +17,7 @@ focused on building a **deterministic, physics-accurate simulation platform** fo
 - Unreal Engine (Epic Games)
 
 
-## Interesting companies and projects
+## 2.2 Interesting companies and projects
 - https://github.com/iamaisim/ProjectAirSim
 - https://github.com/google-deepmind/mujoco
 - https://www.generalrobotics.company/post/airgen
@@ -135,6 +135,22 @@ reinforcement learning and trainig so on
 - events
 
 - parallel simulate x robots, you dont think cuda lenguage, to paralelize objects 
+
+## 6. Challenges (Opportunities)
+
+- Interactive/rich behaviour form agents in sim
+- Manipulator/contact rich robotics
+- Quicker Creation of environments 
+    - How to leverage 3DGS more effectively 
+    - USD Support
+    - Optimize and convert  Phtomogrammetry to real-time sim 
+    - Procedural generation 
+    - Ground detail at large scale
+    - Generative AI integrations for rapid asset/scene creation
+- Sensor accuracy - how important?
+- Physics-based sensors (LIDAR, IR, RADAR and other EO)
+    - Physics based reflections, IR imagery 
+    - Emulation of accurate noise in sensors
 
 ## Resources 
 
